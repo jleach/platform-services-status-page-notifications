@@ -17,6 +17,7 @@ containers: [
                     workingDir:'/home/jenkins',
                     command: '/bin/sh',
                     args: '',
+                    serviceAccount: 'jenkins'
                     ttyEnabled: true
                     )
             ],
