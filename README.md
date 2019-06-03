@@ -17,3 +17,4 @@ The general usage of this repository is as follows:
 
 # Webhook Configuration
 A webhook should be configured on this repo once it's obtained from the Pipeline style BuildConfig in the OpenShift `tools` namespace. 
+A `Generic` webhook should be used, which helps OpenShift not reject the webhook on the basis that it comes from a separate repo. 
