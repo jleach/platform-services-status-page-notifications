@@ -14,3 +14,6 @@ The general usage of this repository is as follows:
 - Add a file to the `notifications` folder in the format: 
   - Filename: `MM-DD-YY-HHMM.md`
   - Content: The relevant notification content
+
+# Webhook Configuration
+A webhook should be configured on this repo once it's obtained from the Pipeline style BuildConfig in the OpenShift `tools` namespace. 
