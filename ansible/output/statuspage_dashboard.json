@@ -184,7 +184,7 @@
           "tableColumn": "",
           "targets": [
             {
-              "expr": "probe_success{instance=\"https://console.lab.pathfinder.gov.bc.ca\",job=\"blackbox_tls_verify\"}\t",
+              "expr": "probe_success{instance=\"https://console.lab.pathfinder.gov.bc.ca:8443\",job=\"blackbox_tls_verify\"}\t",
               "format": "time_series",
               "intervalFactor": 1,
               "refId": "A"
