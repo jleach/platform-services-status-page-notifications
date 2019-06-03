@@ -9,6 +9,7 @@ podTemplate(
 label: 'ansible-pod',
 cloud: 'openshift',
 idleMinutes: '5',
+serviceAccount: 'jenkins',
 containers: [
     containerTemplate(name: 'ansible',
                     image: 'docker.io/stewartshea/jenkins-ansible-agent:latest',
@@ -17,7 +18,6 @@ containers: [
                     workingDir:'/home/jenkins',
                     command: '/bin/sh',
                     args: '',
-                    serviceAccount: 'jenkins',
                     ttyEnabled: true
                     )
             ],
