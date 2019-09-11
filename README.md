@@ -1,6 +1,6 @@
 # Platform Services Status Page Notifications
 This repository contains: 
-- The status update files (in markdown) used to populate the status page
+- The status update files (in markdown) used to populate the [status page](http://status.pathfinder.gov.bc.ca)
 
 This repository does NOT contain: 
 - The code required to re-generate the status page dashboard when updates are made
